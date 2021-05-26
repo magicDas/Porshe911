@@ -186,7 +186,7 @@ a {
     margin-right: 40px;
 }
 .container .desc .dark .arrows .prev img{
-    transform: rotateX(180deg);
+    transform: rotate(180deg);
 }
 .container .desc .dark .arrows .prev:hover,
 .container .desc .dark .arrows .next:hover{
@@ -197,7 +197,7 @@ a {
 	
 }
 .container .desc .dark .arrows .next:hover img{
-	transform: rotateX(180deg);
+	transform: rotate(180deg);
 }
 
 
