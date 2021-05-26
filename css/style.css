@@ -190,6 +190,11 @@ a {
 .container .desc .dark .arrows .next:hover{
 	color: #FF4800;
 }
+.container .desc .dark .arrows .prev,
+.container .desc .dark .arrows .next{
+	color: #828282;
+}
+
 
 /*-----Slider---*/
 .container .pic #viewport {
