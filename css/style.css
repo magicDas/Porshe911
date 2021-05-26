@@ -177,9 +177,6 @@ a {
     margin-bottom: 45px;
 }
 
-.container .desc .dark .arrows img {
-    
-}
 
 .container .desc .dark .arrows .prev {
     margin-right: 40px;
@@ -187,22 +184,17 @@ a {
 .container .desc .dark .arrows .prev img{
     transform: rotate(180deg);
 }
-.container .desc .dark .arrows .prev:hover{
-	background: url("../img/prev.png") no-repeat center;
-	background-size:cover;
-	/*width: 49px;
-	height: 16px;*/
-}
+.container .desc .dark .arrows .prev:hover,
 .container .desc .dark .arrows .next:hover{
-	background: url("../img/prev.png") no-repeat center;
+	background-image: url("../img/prev.png");
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size:cover;
 	/*width: 49px;
 	height: 16px;*/
-	cursor: pointer;
 }
 .container .desc .dark .arrows .next:hover img{
 	transform: rotate(180deg);
-	cursor: pointer;
 }
 
 
