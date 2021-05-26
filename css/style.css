@@ -68,9 +68,13 @@ a {
     background: #262525;
     font-family: "Gilroy-Regular";
     font-size: 16px;
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
 }
 
 .container .desc .dark {
+    flex: 1 0 auto;
     padding: 80px;
     padding-bottom: 20px;
     padding-top: 55px;
