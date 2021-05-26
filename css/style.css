@@ -179,12 +179,25 @@ a {
 .container .desc .dark .arrows .prev {
     margin-right: 40px;
 }
-
+/*
 .bg-next_prev {
     width: 182px; height: 20px;
     background: url('../img/css_sprites.png') -10px -10px;
+}*/
+.container .desc .dark .arrows .prev{
+	background: url('../img/prev.png') no-repeat center center;
+	background-size:cover;
+	object-fit:cover;
+	width:52px;
+	height: 20px;
 }
-
+.container .desc .dark .arrows .next{
+	background: url('../img/next.png') no-repeat center center;
+	background-size:cover;
+	object-fit:cover;
+	width:52px;
+	height: 20px;
+}
 
 
 /*-----Slider---*/
