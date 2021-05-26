@@ -176,26 +176,28 @@ a {
     margin-top: 35px;
     margin-bottom: 45px;
 }
-
-
+.container .desc .dark .arrows .prev,
+.container .desc .dark .arrows .next{
+	object-fit: cover;
+	width:50px;
+	hight:20px;
+}
 .container .desc .dark .arrows .prev {
     margin-right: 40px;
 }
 .container .desc .dark .arrows .prev img{
-    transform: rotate(180deg);
+    transform: rotateX(180deg);
 }
 .container .desc .dark .arrows .prev:hover,
 .container .desc .dark .arrows .next:hover{
 	background-image: url("../img/prev.png");
 	background-repeat: no-repeat;
-	background-position: -1% center;
+	background-position: top center;
 	background-size:cover;
-	object-fit: cover;
-	width: 50px;
-	height: 24px;
+	
 }
 .container .desc .dark .arrows .next:hover img{
-	transform: rotate(180deg);
+	transform: rotateX(180deg);
 }
 
 
