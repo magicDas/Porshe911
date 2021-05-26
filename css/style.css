@@ -188,7 +188,7 @@ a {
 .container .desc .dark .arrows .next:hover{
 	background-image: url("../img/prev.png");
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: -1% center;
 	background-size:cover;
 	object-fit: cover;
 	width: 50px;
