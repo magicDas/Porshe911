@@ -192,13 +192,13 @@ a {
 .container .desc .dark .arrows .next:hover{
 	background-image: url("../img/prev.png");
 	background-repeat: no-repeat;
-	background-position: top 5px;
+	background-position-y: 5px;
 	background-size:cover;
 	transform: rotate(180deg);
 	
 }
 .container .desc .dark .arrows .next:hover img{
-	
+	transform: rotate(180deg);
 }
 
 
