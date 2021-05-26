@@ -230,8 +230,8 @@ a {
 
 .container .desc .orange #viewSlider {
     position: absolute;
-    right: -50px;
-    bottom: 70x;
+    right: 50px;
+    bottom: 70px;
     width: 100%;
     height: 160px;
 }
