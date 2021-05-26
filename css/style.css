@@ -182,9 +182,9 @@ a {
 
 .bg-next_prev {
 	display: inline-block;
-    background-size:cover;
+    	background-size:cover;
 	object-fit:cover;
-	width:52px;
+	width:62px;
 	height: 20px;
     /*background: url('../img/css_sprites.png') -10px -10px;*/
 }
@@ -193,6 +193,10 @@ a {
 }
 .container .desc .dark .arrows .next{
 	background: url('../img/next.png') no-repeat center center;	
+}
+.container .desc .dark .arrows .next: hover{
+	background: url('../img/prev.png') no-repeat center center;
+	transform: rotate(180deg);
 }
 
 
