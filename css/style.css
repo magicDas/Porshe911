@@ -132,7 +132,7 @@ a {
 }
 
 .container .desc .dark .description .content_block.hide {
-    height: 205px;
+    height: 195px;
     overflow-y: visible;
     -webkit-transition: height .3s ease-in;
     -o-transition: height .3s ease-in;
