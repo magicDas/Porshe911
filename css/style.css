@@ -194,10 +194,11 @@ a {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size:cover;
+	transform: rotate(180deg);
 	
 }
 .container .desc .dark .arrows .next:hover img{
-	transform: rotate(180deg);
+	
 }
 
 
