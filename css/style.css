@@ -179,6 +179,8 @@ a {
 .container .desc .dark .arrows .prev,
 .container .desc .dark .arrows .next{
 	object-fit: cover;
+	width:50px;
+	max-hight:20px;
 }
 .container .desc .dark .arrows .prev {
     margin-right: 40px;
@@ -190,7 +192,7 @@ a {
 .container .desc .dark .arrows .next:hover{
 	background-image: url("../img/prev.png");
 	background-repeat: no-repeat;
-	background-position-y: -5px;
+	background-position-y: -2px;
 	background-size:cover;	
 }
 .container .desc .dark .arrows .next:hover img{
